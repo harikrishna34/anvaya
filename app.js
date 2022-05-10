@@ -41,7 +41,7 @@ var attendence_router=require("./routers/attendence_router");
 app.use("/api/employee",attendence_router);
 
 app.use(cors())
-app.use(express.static(__dirname+"/public"))
+app.use(express.static(__dirname+"/Public"))
 app.use(cookieParser())
 
 
